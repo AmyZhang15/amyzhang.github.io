@@ -1,0 +1,53 @@
+
+#main{
+	width:1000px;
+	height:1000px;
+	border:10px solid yellow;
+	color:maroon;
+	display:grid;
+	grid-template: 1fr 6fr/1fr;
+	}
+
+form{
+	display:grid;
+	grid-template:1fr/ 1fr 1fr 1fr 1fr 1fr;
+}
+
+form > input{
+	background-color:White;
+	color: LightSalmon;
+	border: 5px groved Black;
+	border-radius: 15px;
+}
+
+form>input:hover{
+	background-color:Black;
+	color: White;
+	border: 20px groved White;
+	border-radius: 40px;
+}
+
+#b{
+	padding: 20px;
+	background-image: cat.jpeg;
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#main > div{
+	color:Black;
+	font-size: 20px;
+	border: 5px dashed Red;
+
+}
+
+
